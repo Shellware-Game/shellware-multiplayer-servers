@@ -1,0 +1,6 @@
+github.com/TwiN/go-away v1.8.1 h1:zbbr0ISBkDSbnUFHrnRUhbCR/7+9ONMWtIi1BiQWX8Y=
+github.com/TwiN/go-away v1.8.1/go.mod h1:nSQEvd/FYBNmnC27RGJdPi91LXYMG8SrRc1o1w+VmKY=
+github.com/gorilla/websocket v1.5.3 h1:saDtZ6Pbx/0u+bgYQ3q96pZgCzfhKXGPqt7kZ72aNNg=
+github.com/gorilla/websocket v1.5.3/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
+golang.org/x/text v0.40.0 h1:Ub2Z6/xjgF1WrYQz2nuITOEegKFtiIy+rieRJ5lHZKs=
+golang.org/x/text v0.40.0/go.mod h1:hpnzDAfGV753zIKo+wk3u1bVKCGPbrnF7+7LBF/UHVY=
