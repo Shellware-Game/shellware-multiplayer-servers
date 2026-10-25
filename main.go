@@ -51,6 +51,10 @@ func NewServer() *Server {
 }
 
 func (s *Server) Run(addr string) error {
+	s.mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		w.WriteHeader(http.StatusOK)
+		fmt.Fprintln(w, "ok")
+	})
 	s.mux.HandleFunc("/ws", s.handleWS)
 	s.mux.HandleFunc("/healthz", func(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusOK)
