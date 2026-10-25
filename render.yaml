@@ -1,0 +1,10 @@
+services:
+  - type: web
+    env: go
+    name: goworld-server
+    plan: free
+    buildCommand: go build -o goworld-server .
+    startCommand: ./goworld-server
+    env:
+      - key: PORT
+        value: 10000
